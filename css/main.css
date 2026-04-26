@@ -1,0 +1,36 @@
+body{
+    background-color: #FFFFFF;
+}
+.head-section{
+    width: 1336px;
+    height: 178px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF00;
+}
+.head-section h5{
+    color: #282828;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: 'Inter 18pt';
+}
+.title{
+    color: #282828;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: -1px;
+    font-family: 'Inter 18pt';
+    margin: 4px 0px 16px 0px;
+}
+.variations{
+    color: #5F6980;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    font-family: 'Inter 18pt';
+    width: 760px;
+    height: 70px;
+    letter-spacing: 0px;}
