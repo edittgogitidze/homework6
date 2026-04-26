@@ -4,13 +4,17 @@ body{
 .head-section{
     width: 1336px;
     height: 178px;
+    background-color: #FFFFFF00;
+    margin: 80px 0px  48px 0px;
+}
+.title-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     text-align: center;
-    background-color: #FFFFFF00;
 }
-.head-section h5{
+.title-section h5{
     color: #282828;
     font-size: 16px;
     font-weight: 600;
@@ -34,15 +38,28 @@ body{
     font-family: 'Inter 18pt';
     width: 760px;
     height: 70px;
-    letter-spacing: 0px;}
-
+    letter-spacing: 0px;
+}
+    
 .main-section{
 width: 1336px;
 height:908px ;
+margin: 48px 52px;
+}
+.top-part,.bottom-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: ;
+}
+.about-member{
+    width: 310px;
+    height: 430px;
+    border: 1px solid #EAECF0 ;
+}
+.picture{
+    margin-bottom: 16px;
 }
 .top-part{
-    display: flex;
-}
-.bottom-part{
-    display: flex;
+    margin-bottom: 48px;
 }
