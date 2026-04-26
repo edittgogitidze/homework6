@@ -6,6 +6,7 @@ body{
     height: 178px;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #FFFFFF00;
 }
@@ -34,3 +35,14 @@ body{
     width: 760px;
     height: 70px;
     letter-spacing: 0px;}
+
+.main-section{
+width: 1336px;
+height:908px ;
+}
+.top-part{
+    display: flex;
+}
+.bottom-part{
+    display: flex;
+}
