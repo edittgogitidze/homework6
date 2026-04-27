@@ -105,3 +105,11 @@ body{
     letter-spacing: 0px;
     font-family: 'Inter 18pt';
 }
+footer{
+    background-color: #53535354;
+}
+.about-footer{
+    width: 1128px;
+    height: 223px;
+}
+
