@@ -106,43 +106,45 @@ body{
     font-family: 'Inter 18pt';
 }
 footer{
-    background-color: #53535354;
+    max-width: 1440px;
     height: 460px;
-}
-.about-footer{
-    max-width: 1128px;
-    height: 223px;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 108px;
+    background-color: #53535354;
 }
 
+.about-footer{
+    width:1128px;
+    height: 223px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 108px ;
+}
 .endless-class{
-    width: 318.05px;
-    height: 221px;
-   
+   margin-right: 73.95px;
+   width: 318.05px;
+   height: 221px;
 }
 .footer-menu{
+    margin-right: 200px;
     width: 136px;
     height: 223px;
-   
 }
 .service-class{
+    margin-right: 94px;
     width: 199px;
     height: 223px;
-    
 }
 .language-class{
     width: 107px;
     height: 127.45px;
-    
 }
-.icon-picture{
+.endless-class img{
     width: 100px;
     height: 64px;
+    
 }
 .endless-class p{
-    color:#5F6980 ;
+    color: #535353;
     font-size: 14px;
     font-weight: 400;
     line-height: 100%;
@@ -150,45 +152,38 @@ footer{
     font-family: 'Inter 18pt';
     margin: 32px 0px 28px 12px;
 }
-.footer-icons{
+.footer-icons img{
+    width: 24px;
+    height: 24px;
     margin-left: 12px;
 }
-.main-icon{
-    margin-left: 7px;
-    margin-right: 7px;
+.about-footer h4{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-family: 'Inter 18pt';
+    margin-bottom: 71px;
+}
+.footer-menu li, .service-class li{
+    height: 48px;
 }
 .footer-menu a, .service-class a{
     color: #535353;
     font-size: 14px;
     font-weight: 400;
     line-height: 100%;
-    letter-spacing: 0%;  
-}
-.footer-menu li, .service-class li{
-    width: 108px;
-    height: 48px;
+    letter-spacing: 0%;
     font-family: 'Inter 18pt';
 }
-footer h4{
-    color:#1E1E1E ;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 0%;
+.language-class a{
+    color: #FFFFFF;
+    background-color: #054A68;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 100%;
-}
-.footer-menu h4{
-    margin-bottom: 71px;
-}
-.service-class h4{
-    margin-bottom: 55px;
-}
-.language-class h4{
-    margin-bottom: 58.45px;
-}
-.button{
-    width: 80px;
-    height: 45px;
-    background-color:#054A68 ;
-    color:#FFFFFF ;
-    padding: 14px 16px;
+    letter-spacing: 0%;
+    font-family: 'Inter 18pt';
+    padding: 14px 16px 14px 16px;
 }
