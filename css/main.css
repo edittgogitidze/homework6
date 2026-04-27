@@ -92,7 +92,6 @@ body{
     padding: 9px 9px;
     background-color: #F2F4F7;
     border-radius: 100px;
-    
 }
 .text-zone{
     margin: 0px 16px 24px;
@@ -110,14 +109,13 @@ footer{
     height: 460px;
     background-color: #53535354;
 }
-
 .about-footer{
     width:1128px;
     height: 223px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding-top: 108px ;
+    padding-top: 108px;
 }
 .endless-class{
    margin-right: 73.95px;
@@ -141,7 +139,6 @@ footer{
 .endless-class img{
     width: 100px;
     height: 64px;
-    
 }
 .endless-class p{
     color: #535353;
