@@ -111,5 +111,23 @@ footer{
 .about-footer{
     width: 1128px;
     height: 223px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.endless-class{
+    width: 318.05px;
+    height: 221px;
+}
+.footer-menu{
+    width: 136px;
+    height: 223px;
+}
+.service-class{
+    width: 199px;
+    height: 223px;
+}
+.language-class{
+    width: 107px;
+    height: 127.45px;
+}
